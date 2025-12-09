@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "Chiến dịch Hồ Chí Minh bắt đầu vào ngày nào?",
+    "options": ["26/4/1975", "30/4/1975", "10/3/1975", "09/4/1975"],
+    "answer": 0,
+    "explanation": "Chiến dịch Hồ Chí Minh bắt đầu vào 17 giờ ngày 26/4/1975."
+  },
+  {
+    "id": 2,
+    "question": "Ai là Tư lệnh chiến dịch Hồ Chí Minh?",
+    "options": ["Võ Nguyên Giáp", "Văn Tiến Dũng", "Lê Trọng Tấn", "Trần Văn Trà"],
+    "answer": 1,
+    "explanation": "Đại tướng Văn Tiến Dũng là Tư lệnh chiến dịch."
+  },
+  {
+    "id": 3,
+    "question": "Có bao nhiêu cánh quân tiến vào Sài Gòn?",
+    "options": ["3", "4", "5", "6"],
+    "answer": 2,
+    "explanation": "Có 5 cánh quân đồng loạt tiến vào giải phóng Sài Gòn."
+  },
+  {
+    "id": 4,
+    "question": "Chiếc xe tăng húc đổ cổng Dinh Độc Lập mang số hiệu bao nhiêu?",
+    "options": ["390", "843", "483", "930"],
+    "answer": 0,
+    "explanation": "Xe tăng 390 húc đổ cổng chính, xe 843 kẹt ở cổng phụ."
+  },
+  {
+    "id": 5,
+    "question": "Tổng thống VNCH tuyên bố đầu hàng là ai?",
+    "options": ["Nguyễn Văn Thiệu", "Trần Văn Hương", "Dương Văn Minh", "Nguyễn Cao Kỳ"],
+    "answer": 2,
+    "explanation": "Tổng thống Dương Văn Minh tuyên bố đầu hàng vô điều kiện trưa 30/4/1975."
+  }
+]

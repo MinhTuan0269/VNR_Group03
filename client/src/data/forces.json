@@ -1,0 +1,42 @@
+[
+  {
+    "id": "north-west",
+    "name": "Hướng Tây Bắc",
+    "commander": "Trung tướng Hoàng Cầm",
+    "force": "Quân đoàn 3",
+    "target": "Sân bay Tân Sơn Nhất",
+    "description": "Đánh chiếm căn cứ Đồng Dù, sân bay Tân Sơn Nhất."
+  },
+  {
+    "id": "north",
+    "name": "Hướng Bắc",
+    "commander": "Thiếu tướng Nguyễn Hữu An",
+    "force": "Quân đoàn 1",
+    "target": "Bộ Tổng tham mưu",
+    "description": "Đánh chiếm Bộ Tổng tham mưu quân đội Sài Gòn."
+  },
+  {
+    "id": "east",
+    "name": "Hướng Đông",
+    "commander": "Trung tướng Lê Trọng Tấn",
+    "force": "Cánh quân Duyên Hải (QĐ 2)",
+    "target": "Dinh Độc Lập",
+    "description": "Đánh chiếm Dinh Độc Lập, khu vực nội đô."
+  },
+  {
+    "id": "south-east",
+    "name": "Hướng Đông Nam",
+    "commander": "Trung tướng Lê Đức Anh",
+    "force": "Đoàn 232",
+    "target": "Biệt khu Thủ đô",
+    "description": "Cắt đứt đường 4, đánh chiếm Biệt khu Thủ đô."
+  },
+  {
+    "id": "south-west",
+    "name": "Hướng Tây Nam",
+    "commander": "Thượng tướng Trần Văn Trà",
+    "force": "Đoàn 232 (mũi phụ)",
+    "target": "Tổng nha Cảnh sát",
+    "description": "Hỗ trợ hướng Đông Nam, đánh chiếm Tổng nha Cảnh sát."
+  }
+]

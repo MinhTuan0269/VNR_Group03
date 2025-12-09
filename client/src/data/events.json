@@ -1,0 +1,38 @@
+[
+  {
+    "date": "1975-03-04",
+    "title": "Chiến dịch Tây Nguyên",
+    "description": "Quân giải phóng mở màn chiến dịch Tây Nguyên, đánh nghi binh vào Pleiku và Kon Tum.",
+    "image": "placeholder"
+  },
+  {
+    "date": "1975-03-10",
+    "title": "Giải phóng Buôn Ma Thuột",
+    "description": "Trận then chốt quyết định, Buôn Ma Thuột được giải phóng, làm rung chuyển hệ thống phòng thủ của VNCH.",
+    "image": "placeholder"
+  },
+  {
+    "date": "1975-03-29",
+    "title": "Giải phóng Đà Nẵng",
+    "description": "Thành phố lớn thứ hai miền Nam được giải phóng, tạo đà cho các chiến dịch tiếp theo.",
+    "image": "placeholder"
+  },
+  {
+    "date": "1975-04-09",
+    "title": "Trận Xuân Lộc",
+    "description": "Bắt đầu trận chiến ác liệt tại 'cánh cửa thép' Xuân Lộc bảo vệ Sài Gòn.",
+    "image": "placeholder"
+  },
+  {
+    "date": "1975-04-26",
+    "title": "Mở màn Chiến dịch Hồ Chí Minh",
+    "description": "5 cánh quân đồng loạt tiến công vào Sài Gòn.",
+    "image": "placeholder"
+  },
+  {
+    "date": "1975-04-30",
+    "title": "Giải phóng hoàn toàn miền Nam",
+    "description": "Xe tăng húc đổ cổng Dinh Độc Lập. Tổng thống Dương Văn Minh tuyên bố đầu hàng.",
+    "image": "placeholder"
+  }
+]
