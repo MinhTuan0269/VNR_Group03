@@ -1,0 +1,42 @@
+Role:
+You are a Frontend Architect with 20 years experience. Build a full, production-ready, responsive website about “Chiến dịch Hồ Chí Minh (1954–1975)” with cinematic UI, interactive map, multimedia exhibition and two minigames. Use Next.js + React + TailwindCSS. Provide full source code, assets placeholders, data JSON and README with run instructions.
+
+Requirements (short checklist for code generator):
+
+Project: Next.js (app or pages), TailwindCSS, GSAP for scroll animations, SVG interactive map for Saigon 1975, drag-and-drop minigame, quiz minigame. Provide npm scripts: dev, build, start.
+
+Pages: Home, Nội dung chi tiết, Triển lãm (Media gallery), Minigame.
+
+Home: animated hero—background blurred Saigon1975 map, tank SVG moving to center, slogan, CTA buttons, hover plays 30/4/1975 radio audio loop low volume, retro countdown to 30/4/1975.
+
+Nội dung chi tiết: eight sections (Bối cảnh, Lực lượng & kế hoạch — interactive map with 5 attack vectors (click path highlights + popup with name/chief/target/direction), Phương châm (4 icons), Diễn biến timeline (26–30/4) interactive with video/photo/text, Kết quả, Ý nghĩa, Lãnh đạo & Chỉ huy grid, Tổng kết).
+
+Triển lãm: masonry photo gallery, audio player (custom retro radio UI with provided audio assets), video embeds, poem/journal slider. Include option to upload/replace PDF and link to original PDF source.
+
+Minigames:
+
+Game A (Map drag-drop): 5 draggable unit icons → drop on correct zones (give feedback, hints).
+
+Game B (Quiz): 10 multiple-choice history questions; correct answers reveal pieces of final image; show score and explanation for each answer.
+
+Accessibility & Responsiveness: keyboard accessible controls, alt text for images, aria labels for interactive map and games.
+
+Data: include /data/events.json with timeline events, /data/forces.json for 5 vectors (name, commander, direction, target, svgPathId).
+
+Dev notes: include README with run steps, how to replace assets, and how to host (Replit/Vercel).
+
+Extra: small animation particles, cinematic fonts fallback to Roboto Slab or Noto Serif, and use SVG for map so paths are clickable. Do NOT fetch external copyrighted media—use placeholders and comment where to replace with provided sources (include URLs the user gave).
+
+Deliverables:
+
+Full Next.js repo (React components: Hero, InteractiveMap, Timeline, Gallery, AudioPlayer, MinigameDragDrop, QuizGame).
+
+README.md with npm install, npm run dev, npm run build, how to deploy to Replit / Vercel.
+
+JSON data files and example images/audio placeholders.
+
+Brief developer notes (how to change map SVG path coordinates, how to add more timeline events).
+
+A small demo seed of assets (low-res placeholders) so site runs immediately.
+
+Important: Optimize for modern browsers, mobile-first, and keep interactions smooth. Provide comments in code for where to replace historical media (PDF/audio/video) with real sources.
