@@ -441,10 +441,10 @@ export default function Details() {
         <section className="bg-stone-100 -mx-4 px-4 py-16 rounded-3xl">
           <Timeline />
         </section>
-        
+
         {/* Section 2.1: 4 cards mô tả 4 cánh quân chủ công */}
         <TacticsSection />
-        
+
         {/* Section 4: Result */}
         {/* <section className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-serif font-bold text-primary mb-8 uppercase">
@@ -465,14 +465,10 @@ export default function Details() {
             </p>
           </div>
         </section> */}
-        
+
         <IdeologyStonesSection />
 
-
         {/* mindmap */}
-
-      
-
       </div>
 
       <Footer />
