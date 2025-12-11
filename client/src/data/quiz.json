@@ -33,5 +33,170 @@
     "options": ["Nguyễn Văn Thiệu", "Trần Văn Hương", "Dương Văn Minh", "Nguyễn Cao Kỳ"],
     "answer": 2,
     "explanation": "Tổng thống Dương Văn Minh tuyên bố đầu hàng vô điều kiện trưa 30/4/1975."
+  },
+  {
+    "id": 6,
+    "question": "Cuộc tấn công của Pháp – Tây Ban Nha vào Gia Định năm 1859 đánh dấu điều gì?",
+    "options": [
+      "Bắt đầu quá trình xâm lược Việt Nam của thực dân phương Tây",
+      "Kết thúc giai đoạn phòng thủ của triều đình nhà Nguyễn trước ngoại bang",
+      "Mở đầu thời kỳ cải cách và canh tân trong xã hội Việt Nam hiện đại",
+      "Khởi nguồn sự phân hóa quyền lực trong bộ máy phong kiến Việt Nam"
+    ],
+    "answer": 0,
+    "explanation": "Cuộc tấn công vào Gia Định năm 1859 đánh dấu bước mở đầu cho quá trình xâm lược Việt Nam của thực dân phương Tây."
+  },
+  {
+    "id": 7,
+    "question": "Điểm chung của các phong trào Cần Vương, Hương Khê và Yên Thế là gì?",
+    "options": [
+      "Thể hiện tinh thần yêu nước mạnh mẽ nhưng đều thất bại do thiếu đường lối",
+      "Có tổ chức thống nhất và được triều đình phong kiến hỗ trợ đầy đủ",
+      "Gắn kết chặt chẽ với phong trào công nhân và giới trí thức đô thị",
+      "Áp dụng mô hình cách mạng dân chủ tư sản theo phong cách Nhật Bản"
+    ],
+    "answer": 0,
+    "explanation": "Các phong trào này đều bùng nổ mạnh mẽ nhưng cuối cùng thất bại vì thiếu đường lối cách mạng khoa học và tổ chức lãnh đạo thống nhất."
+  },
+  {
+    "id": 8,
+    "question": "Hồ Chí Minh tiếp cận chủ nghĩa Mác – Lênin vì nhận thấy điều nào?",
+    "options": [
+      "Học thuyết này có khả năng kết hợp được với tinh thần yêu nước Việt Nam",
+      "Học thuyết này có thể thay thế toàn diện các phong trào dân chủ tư sản",
+      "Học thuyết này đã được nhiều nước châu Á áp dụng thành công trước đó",
+      "Học thuyết này phù hợp với mô hình quân chủ lập hiến ở Việt Nam"
+    ],
+    "answer": 0,
+    "explanation": "Hồ Chí Minh thấy rằng chủ nghĩa Mác – Lênin có thể kết hợp với truyền thống yêu nước để giải phóng dân tộc một cách triệt để."
+  },
+  {
+    "id": 9,
+    "question": "Theo Hồ Chí Minh, yếu tố quyết định để cách mạng thành công là gì?",
+    "options": [
+      "Có Đảng lãnh đạo vững vàng và đường lối cách mạng khoa học",
+      "Có phong trào yêu nước rộng lớn và tinh thần đoàn kết toàn dân",
+      "Có sự hỗ trợ đầy đủ từ các phong trào quốc tế và đồng minh",
+      "Có lực lượng quân sự mạnh và nguồn viện trợ nước ngoài"
+    ],
+    "answer": 0,
+    "explanation": "Hồ Chí Minh khẳng định muốn cách mạng thắng lợi phải có Đảng lãnh đạo với đường lối khoa học, đúng đắn."
+  },
+  {
+    "id": 10,
+    "question": "Nguyên nhân sâu xa khiến các phong trào dân chủ tư sản đầu thế kỷ XX thất bại là gì?",
+    "options": [
+      "Giai cấp tư sản Việt Nam còn yếu và không đủ khả năng lãnh đạo",
+      "Nhân dân chưa có tinh thần yêu nước và chưa sẵn sàng đoàn kết",
+      "Triều đình phong kiến can thiệp để hạn chế các phong trào cải cách",
+      "Các tổ chức yêu nước chưa được quốc tế công nhận và hỗ trợ"
+    ],
+    "answer": 0,
+    "explanation": "Lực lượng tư sản Việt Nam non yếu, thiếu bản lĩnh và không đủ khả năng lãnh đạo cách mạng triệt để nên các phong trào dân chủ tư sản thất bại."
+  },
+  {
+    "id": 11,
+    "question": "Trong “Đường Kách Mệnh”, Hồ Chí Minh nhấn mạnh điều gì về người yêu nước?",
+    "options": [
+      "Người yêu nước nhưng không có đường lối khoa học như kẻ mù đi ban ngày",
+      "Người yêu nước cần nương nhờ ngoại bang để giành lại độc lập quốc gia",
+      "Người yêu nước nên đi theo con đường cải cách giống Nhật Bản Minh Trị",
+      "Người yêu nước nên tập trung vào phát triển kinh tế thay vì đấu tranh"
+    ],
+    "answer": 0,
+    "explanation": "Hồ Chí Minh ví người yêu nước mà thiếu lý luận, thiếu đường lối khoa học như kẻ mù đi ban ngày."
+  },
+  {
+    "id": 12,
+    "question": "Khi tổ chức phong trào yêu nước, Hồ Chí Minh thực hiện biện pháp nào đầu tiên?",
+    "options": [
+      "Truyền bá chủ nghĩa Mác – Lênin để định hướng phong trào đúng đắn",
+      "Thành lập các đoàn thể vũ trang để chuẩn bị lực lượng chiến đấu",
+      "Kêu gọi triều đình phong kiến phối hợp để thống nhất lãnh đạo",
+      "Tổ chức các phong trào thuế khóa nhằm cải cách xã hội trong nước"
+    ],
+    "answer": 0,
+    "explanation": "Người bắt đầu từ việc truyền bá chủ nghĩa Mác – Lênin, xây dựng cơ sở lý luận cho phong trào yêu nước."
+  },
+  {
+    "id": 13,
+    "question": "Điều gì chứng tỏ phong trào yêu nước Việt Nam cuối thế kỷ XIX – đầu XX đang khủng hoảng?",
+    "options": [
+      "Các phong trào nổ ra nhiều nhưng đều thất bại vì thiếu tổ chức và đường lối",
+      "Triều đình nhà Nguyễn tiến hành cải cách chính trị nhưng không triệt để",
+      "Nhân dân ít tham gia các phong trào do bị ảnh hưởng bởi đời sống kinh tế",
+      "Các phong trào bị chia rẽ do tranh chấp lãnh thổ giữa các địa phương"
+    ],
+    "answer": 0,
+    "explanation": "Nhiều phong trào yêu nước liên tiếp thất bại, bộc lộ sự bế tắc về đường lối và tổ chức, cho thấy phong trào đang khủng hoảng."
+  },
+  {
+    "id": 14,
+    "question": "Việc Hồ Chí Minh kết hợp phong trào yêu nước với chủ nghĩa Mác – Lênin mang ý nghĩa gì?",
+    "options": [
+      "Chuyển yêu nước tự phát thành yêu nước tự giác có đường lối khoa học",
+      "Tách phong trào yêu nước khỏi phong trào công nhân trong xã hội",
+      "Loại bỏ hoàn toàn ảnh hưởng của các phong trào dân chủ tư sản",
+      "Thay thế mọi hình thức đấu tranh cũ bằng cải cách ôn hòa trong nước"
+    ],
+    "answer": 0,
+    "explanation": "Người đã đưa phong trào yêu nước từ chỗ tự phát lên tự giác, gắn với lý luận Mác – Lênin và đường lối cách mạng khoa học."
+  },
+  {
+    "id": 15,
+    "question": "Yếu tố nào giúp phong trào công nhân kết hợp chặt chẽ với phong trào yêu nước?",
+    "options": [
+      "Cả hai phong trào đều hướng tới mục tiêu giải phóng dân tộc triệt để",
+      "Cả hai phong trào đều có nguồn gốc từ tầng lớp trí thức tiến bộ",
+      "Cả hai phong trào đều chịu sự lãnh đạo từ triều đình phong kiến",
+      "Cả hai phong trào đều đề cao chính sách cải cách theo kiểu Nhật Bản"
+    ],
+    "answer": 0,
+    "explanation": "Cả phong trào công nhân và phong trào yêu nước đều gặp nhau ở mục tiêu giải phóng dân tộc triệt để, nên dễ dàng gắn kết với nhau."
+  },
+  {
+    "id": 16,
+    "question": "Vai trò của giới trí thức trong phong trào yêu nước đầu thế kỷ XX là gì?",
+    "options": [
+      "Truyền bá lý luận cách mạng, giúp phong trào chuyển từ tự phát sang tự giác",
+      "Tổ chức các đội quân vũ trang để lãnh đạo nghĩa quân tại nhiều địa phương",
+      "Đại diện triều đình đàm phán với Pháp nhằm giành lại chủ quyền quốc gia",
+      "Tập trung phát triển kinh tế tư nhân nhằm nâng cao đời sống xã hội"
+    ],
+    "answer": 0,
+    "explanation": "Giới trí thức tiến bộ giữ vai trò quan trọng trong việc truyền bá tư tưởng mới, giúp phong trào yêu nước chuyển từ tự phát sang tự giác."
+  },
+  {
+    "id": 17,
+    "question": "Hồ Chí Minh coi trọng phong trào yêu nước vì lý do nào mang tính nền tảng nhất?",
+    "options": [
+      "Đây là giá trị xuyên suốt lịch sử Việt Nam và là động lực lớn của cách mạng",
+      "Đây là phong trào gắn với cải cách dân chủ tư sản và kinh tế",
+      "Đây là yếu tố có thể thay thế vai trò lãnh đạo của giai cấp công nhân",
+      "Đây là phong trào được triều đình phong kiến phát động trong nhiều thế kỷ"
+    ],
+    "answer": 0,
+    "explanation": "Chủ nghĩa yêu nước là giá trị xuyên suốt lịch sử dân tộc, là động lực lớn thúc đẩy cách mạng, nên Hồ Chí Minh luôn coi trọng."
+  },
+  {
+    "id": 18,
+    "question": "Hồ Chí Minh cho rằng chỉ cần tinh thần yêu nước mạnh mẽ, không cần đường lối khoa học vẫn có thể thắng lợi.",
+    "options": ["Đúng", "Sai"],
+    "answer": 1,
+    "explanation": "Sai. Người nhấn mạnh yêu nước phải gắn với lý luận khoa học và đường lối đúng đắn thì cách mạng mới có thể thắng lợi."
+  },
+  {
+    "id": 19,
+    "question": "Theo Hồ Chí Minh, yêu nước tự phát nếu thiếu lý luận cách mạng thì khó thành công.",
+    "options": ["Đúng", "Sai"],
+    "answer": 0,
+    "explanation": "Đúng. Nếu chỉ dừng lại ở lòng yêu nước tự phát mà không có lý luận cách mạng soi đường thì phong trào dễ thất bại."
+  },
+  {
+    "id": 20,
+    "question": "Hồ Chí Minh khẳng định phong trào yêu nước mạnh mẽ và hiệu quả khi được tổ chức, lãnh đạo thống nhất bởi Đảng.",
+    "options": ["Đúng", "Sai"],
+    "answer": 0,
+    "explanation": "Đúng. Đảng Cộng sản Việt Nam là lực lượng lãnh đạo, tổ chức phong trào yêu nước, biến sức mạnh tự phát thành sức mạnh tự giác, có tổ chức."
   }
 ]

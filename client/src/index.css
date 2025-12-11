@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* ↑ Thêm global font-size cho toàn dự án */
+html {
+  font-size: 23px; /* tăng toàn chữ lên 12.5% */
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -23,73 +28,71 @@
   --color-border: hsl(var(--border));
   --color-input: hsl(var(--input));
   --color-ring: hsl(var(--ring));
-  
+
   --font-serif: "Playfair Display", serif;
   --font-slab: "Roboto Slab", serif;
   --font-sans: "Inter", sans-serif;
-  
+
   --radius: 0.25rem;
 }
 
 :root {
-  /* Cinematic Historical Theme - Light/Sepia Mode */
-  --background: 40 20% 92%; /* Paper/Parchment */
-  --foreground: 20 10% 20%; /* Dark Ink */
-  
+  --background: 40 20% 92%;
+  --foreground: 20 10% 20%;
+
   --card: 40 20% 88%;
   --card-foreground: 20 10% 20%;
-  
+
   --popover: 40 20% 92%;
   --popover-foreground: 20 10% 20%;
-  
-  --primary: 0 70% 40%; /* Revolutionary Red */
+
+  --primary: 0 70% 40%;
   --primary-foreground: 40 20% 95%;
-  
-  --secondary: 45 60% 50%; /* Gold/Brass */
+
+  --secondary: 45 60% 50%;
   --secondary-foreground: 20 10% 20%;
-  
+
   --muted: 40 10% 80%;
   --muted-foreground: 20 10% 40%;
-  
-  --accent: 120 30% 30%; /* Military Green */
+
+  --accent: 120 30% 30%;
   --accent-foreground: 40 20% 95%;
-  
+
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 98%;
-  
+
   --border: 40 10% 70%;
   --input: 40 10% 70%;
   --ring: 0 70% 40%;
-  
+
   --radius: 0.25rem;
 }
 
 .dark {
-  /* Cinematic Historical Theme - Dark Mode */
-  --background: 20 10% 10%; /* Dark History */
-  --foreground: 40 20% 90%; /* Old Paper Text */
-  
+  --background: 20 10% 10%;
+  --foreground: 40 20% 90%;
+
   --card: 20 10% 15%;
   --card-foreground: 40 20% 90%;
-  
+
   --popover: 20 10% 15%;
   --popover-foreground: 40 20% 90%;
-  
-  --primary: 0 70% 45%; /* Red */
+
+  --primary: 0 70% 45%;
   --primary-foreground: 20 10% 10%;
-  
-  --secondary: 45 60% 50%; /* Gold */
+
+  --secondary: 45 60% 50%;
   --secondary-foreground: 20 10% 10%;
-  
+
   --muted: 20 10% 20%;
   --muted-foreground: 40 10% 60%;
-  
-  --accent: 120 30% 25%; /* Dark Green */
+
+  --accent: 120 30% 25%;
   --accent-foreground: 40 20% 90%;
-  
+
   --destructive: 0 62% 30%;
   --destructive-foreground: 0 0% 98%;
-  
+
   --border: 20 10% 25%;
   --input: 20 10% 25%;
   --ring: 0 70% 45%;
@@ -99,9 +102,12 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply font-sans antialiased bg-background text-foreground;
+    font-size: 1.12rem; /* tăng size chữ body */
   }
+
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif;
   }
@@ -120,4 +126,27 @@
   .sepia-filter {
     filter: sepia(0.5) contrast(1.1);
   }
+}
+
+@keyframes summaryTitleFloat {
+  0% { opacity: 0; transform: translateY(18px); }
+  30% { opacity: 1; transform: translateY(0); }
+  70% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes summaryLineFloat {
+  0% { opacity: 0; transform: translateY(22px); }
+  30% { opacity: 1; transform: translateY(0); }
+  70% { transform: translateY(-4px); }
+  100% { transform: translateY(0); }
+}
+
+.summary-title-anim {
+  animation: summaryTitleFloat 7s ease-in-out infinite;
+}
+
+.summary-line-anim {
+  animation: summaryLineFloat 8.5s ease-in-out infinite;
+  animation-delay: 0.45s;
 }

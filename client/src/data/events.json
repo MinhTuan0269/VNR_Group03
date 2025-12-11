@@ -1,38 +1,74 @@
 [
   {
-    "date": "1975-03-04",
-    "title": "Chiến dịch Tây Nguyên",
-    "description": "Quân giải phóng mở màn chiến dịch Tây Nguyên, đánh nghi binh vào Pleiku và Kon Tum.",
-    "image": "placeholder"
+    "date": "1975-04-26 → 1975-04-28",
+    "title": "Đột phá tuyến phòng thủ vòng ngoài",
+    "description": "Quân ta đồng loạt tấn công, đánh chiếm nhiều mục tiêu quan trọng như Long Thành, Trảng Bom, Nhơn Trạch và thị xã Bà Rịa. Đồng thời cắt đứt hoàn toàn đường số 4 từ Sài Gòn đi miền Tây, làm tê liệt các sân bay Biên Hòa và Tân Sơn Nhất.",
+    "image": "/mien-bac-1975.png",
+    "imageCaption": "26–28/4/1975"
   },
   {
-    "date": "1975-03-10",
-    "title": "Giải phóng Buôn Ma Thuột",
-    "description": "Trận then chốt quyết định, Buôn Ma Thuột được giải phóng, làm rung chuyển hệ thống phòng thủ của VNCH.",
-    "image": "placeholder"
+    "date": "17h - 28/4/1975",
+    "title": "Tập kích sân bay Tân Sơn Nhất",
+    "description": "Ngay sau khi Dương Văn Minh tuyên bố nhận chức Tổng thống và hô hào binh lính 'bảo vệ lãnh thổ', 'không buông vũ khí', quân ta dùng 5 máy bay A37 thu được tập kích sân bay Tân Sơn Nhất. Pháo binh ta giội bão lửa, làm tê liệt mọi hoạt động trên sân bay, buộc Mỹ phải chuyển sang di tản bằng máy bay lên thẳng.",
+    "image": "/17h-ngay28.png"
+  },
+
+  {
+    "date": "29/4/1975",
+    "title": "Năm hướng tổng tiến công vào Sài Gòn",
+    "description": "Quân ta trên 5 hướng tổng tiến công vào nội thành Sài Gòn, tiêu diệt các tập đoàn phòng ngự chủ yếu của quân lực Việt Nam Cộng hòa ở vòng ngoài và vùng ven, đánh chiếm các căn cứ Nước Trong, Long Bình, Thành Tuy Hạ, Đồng Dù, thị xã Hậu Nghĩa…",
+    "image": "/29-4.png"
   },
   {
-    "date": "1975-03-29",
-    "title": "Giải phóng Đà Nẵng",
-    "description": "Thành phố lớn thứ hai miền Nam được giải phóng, tạo đà cho các chiến dịch tiếp theo.",
-    "image": "placeholder"
+    "date": "5h30 - 30/4/1975",
+    "title": "Đồng loạt đánh vào Sài Gòn",
+    "description": "Quân ta trên các hướng đồng loạt đánh vào Sài Gòn. Riêng cánh quân phía Đông được nổ súng từ 18h ngày 29/4, cách vùng ven dưới 20km, vừa đánh vừa tiến quân, vượt sông Đồng Nai và sông Sài Gòn, siết chặt vòng vây quanh chính quyền Sài Gòn.",
+    "image": ""
   },
   {
-    "date": "1975-04-09",
-    "title": "Trận Xuân Lộc",
-    "description": "Bắt đầu trận chiến ác liệt tại 'cánh cửa thép' Xuân Lộc bảo vệ Sài Gòn.",
-    "image": "placeholder"
+    "date": "Trưa - 30/4/1975",
+    "title": "Năm cánh quân hợp lực giữa Sài Gòn",
+    "description": "Năm cánh quân hợp lực giữa Sài Gòn: Quân đoàn 2 chiếm Dinh Độc Lập; Quân đoàn 4 chiếm Bộ Quốc phòng, cảng Bạch Đằng và Đài phát thanh; Quân đoàn 1 chiếm Bộ Tổng tham mưu và khu vực các bộ tư lệnh binh chủng; Quân đoàn 3 chiếm sân bay Tân Sơn Nhất; Đoàn 232 chiếm Biệt khu Thủ đô và Tổng Nha Cảnh Sát.",
+    "images": [
+      {
+        "src": "/30-4.png",
+        "caption": "Xe tăng tiến vào Dinh Độc Lập – trưa 30/4/1975"
+      },
+      {
+        "src": "/30-4(2).png",
+        "caption": ""
+      },
+      {
+        "src": "/30-4(3).png",
+        "caption": "Trưa 30/4/1975"
+      },
+      {
+        "src": "/30-4(4).png",
+        "caption": "Trưa 30/4/1975"
+      }
+    ]
+  },
+
+  {
+    "date": "10h45 - 30/4/1975",
+    "title": "Xe tăng húc đổ cổng Dinh Độc Lập",
+    "description": "Các đơn vị của Quân đoàn 2 bằng xe tăng và pháo binh tiến thẳng vào Dinh Độc Lập. Xe tăng T-54 số hiệu 843 húc nghiêng cổng phụ Dinh và bị kẹt lại, ngay sau đó xe tăng Type 59 số hiệu 390 xông tới, húc tung cánh cổng chính. Tổng thống Dương Văn Minh và nội các bị bắt, sau đó được đưa tới Đài Phát thanh để đọc lời đầu hàng vô điều kiện, lời tuyên bố đầu hàng được phát thông qua: Đài Phát thanh Sài Gòn (Đài Tiếng nói nhân dân TP.HCM).",
+    "image": "/dinh-doc-lap.png",
+    "imageCaption": "Xe tăng Quân giải phóng húc đổ cổng Dinh Độc Lập trưa 30-4-1975."
   },
   {
-    "date": "1975-04-26",
-    "title": "Mở màn Chiến dịch Hồ Chí Minh",
-    "description": "5 cánh quân đồng loạt tiến công vào Sài Gòn.",
-    "image": "placeholder"
-  },
-  {
-    "date": "1975-04-30",
-    "title": "Giải phóng hoàn toàn miền Nam",
-    "description": "Xe tăng húc đổ cổng Dinh Độc Lập. Tổng thống Dương Văn Minh tuyên bố đầu hàng.",
-    "image": "placeholder"
+    "date": "11h30 - 30/4/1975",
+    "title": "Sài Gòn – Gia Định hoàn toàn giải phóng",
+    "description": "Lá cờ Cách mạng được cắm trên nóc Dinh Độc Lập. Thành phố Sài Gòn – Gia Định hoàn toàn giải phóng, Chiến dịch Hồ Chí Minh toàn thắng, kết thúc thắng lợi cuộc kháng chiến chống Mỹ, cứu nước và mở ra kỷ nguyên mới: Đất nước thống nhất, cả nước đi lên chủ nghĩa xã hội.",
+    "images": [
+      {
+        "src": "/11h30-30-4(1).png",
+        "caption": ""
+      },
+      {
+        "src": "/11h30-30-4(2).png",
+        "caption": ""
+      }
+    ]
   }
 ]

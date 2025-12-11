@@ -1,42 +1,46 @@
 [
   {
-    "id": "north-west",
-    "name": "Hướng Tây Bắc",
-    "commander": "Trung tướng Hoàng Cầm",
-    "force": "Quân đoàn 3",
-    "target": "Sân bay Tân Sơn Nhất",
-    "description": "Đánh chiếm căn cứ Đồng Dù, sân bay Tân Sơn Nhất."
+    "id": "mu1",
+    "title": "MŨI TIẾN CÔNG TÂY – TÂY BẮC (Cánh quân 1 – Quân đoàn 3)",
+    "corps": "Quân đoàn 3",
+    "commander": "Trung tướng Vũ Lăng",
+    "direction": "Từ Tây Bắc đánh xuống Củ Chi – Hóc Môn",
+    "objectives": [
+      "Căn cứ Đồng Dù",
+      "Cầu Bông",
+      "Cắt đứt đường tiếp viện từ Tây Ninh"
+    ]
   },
   {
-    "id": "north",
-    "name": "Hướng Bắc",
-    "commander": "Thiếu tướng Nguyễn Hữu An",
-    "force": "Quân đoàn 1",
-    "target": "Bộ Tổng tham mưu",
-    "description": "Đánh chiếm Bộ Tổng tham mưu quân đội Sài Gòn."
-  },
-  {
-    "id": "east",
-    "name": "Hướng Đông",
+    "id": "mu2",
+    "title": "MŨI TIẾN CÔNG BẮC (Cánh quân 2 – Quân đoàn 1)",
+    "corps": "Quân đoàn 1",
     "commander": "Trung tướng Lê Trọng Tấn",
-    "force": "Cánh quân Duyên Hải (QĐ 2)",
-    "target": "Dinh Độc Lập",
-    "description": "Đánh chiếm Dinh Độc Lập, khu vực nội đô."
+    "direction": "Từ Bình Triệu – Thủ Đức đánh thẳng vào trung tâm",
+    "objectives": ["Cầu Bình Triệu", "Tổng nha Cảnh sát", "Ngã tư Hàng Xanh"]
   },
   {
-    "id": "south-east",
-    "name": "Hướng Đông Nam",
+    "id": "mu3",
+    "title": "MŨI TIẾN CÔNG ĐÔNG (Cánh quân 3 – Quân đoàn 4)",
+    "corps": "Quân đoàn 4",
+    "commander": "Thiếu tướng Hoàng Cầm",
+    "direction": "Từ Dầu Giây – Long Bình áp sát Sài Gòn",
+    "objectives": ["Căn cứ Nước Trong", "Kho Long Bình"]
+  },
+  {
+    "id": "mu4",
+    "title": "MŨI TIẾN CÔNG ĐÔNG NAM (Cánh quân 4 – Quân đoàn 2)",
+    "corps": "Quân đoàn 2",
+    "commander": "Trung tướng Nguyễn Hữu An",
+    "direction": "Theo xa lộ Biên Hoà – cầu Sài Gòn tiến vào nội đô",
+    "objectives": ["Cầu Xa Lộ", "Bộ Tổng Tham mưu", "Dinh Độc Lập"]
+  },
+  {
+    "id": "mu5",
+    "title": "MŨI TIẾN CÔNG TÂY (Cánh quân 5 – Đoàn 232)",
+    "corps": "Đoàn 232",
     "commander": "Trung tướng Lê Đức Anh",
-    "force": "Đoàn 232",
-    "target": "Biệt khu Thủ đô",
-    "description": "Cắt đứt đường 4, đánh chiếm Biệt khu Thủ đô."
-  },
-  {
-    "id": "south-west",
-    "name": "Hướng Tây Nam",
-    "commander": "Thượng tướng Trần Văn Trà",
-    "force": "Đoàn 232 (mũi phụ)",
-    "target": "Tổng nha Cảnh sát",
-    "description": "Hỗ trợ hướng Đông Nam, đánh chiếm Tổng nha Cảnh sát."
+    "direction": "Từ Tây – Tây Nam tiến vào nội đô",
+    "objectives": ["Căn cứ Củ Chi", "Ngã tư Bảy Hiền", "Sân bay Tân Sơn Nhất"]
   }
 ]
