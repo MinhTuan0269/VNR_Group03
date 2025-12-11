@@ -3,7 +3,7 @@
 
 /* ↑ Thêm global font-size cho toàn dự án */
 html {
-  font-size: 23px; /* tăng toàn chữ lên 12.5% */
+  font-size: 10px; /* tăng toàn chữ lên 12.5% */
 }
 
 @custom-variant dark (&:is(.dark *));
