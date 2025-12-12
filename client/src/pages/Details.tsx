@@ -162,67 +162,75 @@ export default function Details() {
 
       <NewspaperTankSection>
         {/* Header giữ nguyên */}
-        {/* Header - Phong cách báo cổ kháng chiến */}
+       
         <div className="relative pt-20 pb-10 px-4 overflow-hidden">
-          {/* Header background - sáng hơn background chính */}
-          <div className="absolute inset-0 bg-[#f5eee0]" />
 
-          {/* Subtle texture overlay cho header */}
-          <div className="absolute inset-0 opacity-[0.06] bg-[repeating-linear-gradient(0deg,rgba(60,50,35,0.12)_0,rgba(60,50,35,0.12)_1px,transparent_1px,transparent_3px)]" />
+          {/* ===== BASE HEADER – NỀN TỐI ===== */}
+          <div className="absolute inset-0 bg-slate-900" />
 
-          {/* Gradient nhẹ từ trên xuống */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#ebe0cc]/30 via-transparent to-transparent" />
+          {/* Gradient chiều sâu – tối, không sáng */}
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-800/80 via-transparent to-slate-900/90" />
 
-          {/* Decorative border top */}
-          <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-transparent via-[#8b7757]/40 to-transparent" />
-          <div className="absolute top-2 left-0 right-0 h-px bg-[#3c3223]/30" />
+          {/* Texture giấy rất nhẹ – tối */}
+          <div className="absolute inset-0 opacity-[0.05] bg-[repeating-linear-gradient(0deg,rgba(255,255,255,0.06)_0,rgba(255,255,255,0.06)_1px,transparent_1px,transparent_4px)]" />
 
-          {/* Ornamental corners */}
-          <div className="absolute top-4 left-4 w-12 h-12 border-l-2 border-t-2 border-[#8b7757]/50" />
-          <div className="absolute top-4 right-4 w-12 h-12 border-r-2 border-t-2 border-[#8b7757]/50" />
+          {/* Vignette gom mắt */}
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_45%,rgba(0,0,0,0.45)_100%)]" />
 
-          {/* Content */}
+          {/* Decorative line TOP */}
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 h-px w-3/4 bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+
+          {/* Ornament góc */}
+          <div className="absolute top-6 left-6 w-10 h-10 border-l border-t border-white/25" />
+          <div className="absolute top-6 right-6 w-10 h-10 border-r border-t border-white/25" />
+
+          {/* ===== CONTENT ===== */}
           <div className="relative container mx-auto text-center">
-            {/* Masthead style */}
+
+            {/* Masthead */}
             <div className="mb-3">
               <div className="flex items-center justify-center gap-2 mb-2">
-                <div className="h-px w-20 bg-[#3c3223]/40" />
-                <span className="text-[9px] font-serif tracking-[0.4em] text-[#3c3223]/60 uppercase">
+                <div className="h-px w-16 bg-white/30" />
+                <span className="text-[9px] font-serif tracking-[0.4em] text-white/70 uppercase">
                   Triển Lãm Lịch Sử
                 </span>
-                <div className="h-px w-20 bg-[#3c3223]/40" />
+                <div className="h-px w-16 bg-white/30" />
               </div>
             </div>
 
-            <h1 className="text-4xl md:text-6xl font-serif font-bold text-[#3c3223] mb-3 tracking-tight drop-shadow-[0_1px_1px_rgba(255,255,255,0.5)]">
+            {/* TITLE – CHỮ ĐỎ */}
+            <h1 className="text-4xl md:text-6xl font-serif font-bold text-red-600 mb-3 tracking-tight">
               Nội Dung Chi Tiết
             </h1>
 
-            <p className="max-w-2xl mx-auto text-xs md:text-sm tracking-[0.25em] text-[#5a4a3a]/80 uppercase mb-4">
+            {/* SUB – TRẮNG XÁM */}
+            <p className="max-w-2xl mx-auto text-xs md:text-sm tracking-[0.25em] text-stone-200 uppercase mb-4">
               Bối cảnh - Kế hoạch - Lực lượng - Diễn biến
             </p>
 
-            {/* Decorative date line */}
+            {/* DATE */}
             <div className="flex items-center justify-center gap-3">
-              <div className="h-[2px] w-16 bg-[#8b7757]/30" />
-              <div className="px-3 py-1 border border-[#8b7757]/30 rounded">
-                <span className="text-[10px] font-serif font-semibold text-[#3c3223]/70 tracking-[0.3em]">
+              <div className="h-px w-12 bg-white/30" />
+              <div className="px-3 py-1 border border-white/30 rounded">
+                <span className="text-[10px] font-serif font-semibold text-white/80 tracking-[0.3em]">
                   1975
                 </span>
               </div>
-              <div className="h-[2px] w-16 bg-[#8b7757]/30" />
+              <div className="h-px w-12 bg-white/30" />
             </div>
           </div>
 
-          {/* Decorative border bottom */}
-          <div className="absolute bottom-0 left-0 right-0 h-px bg-[#3c3223]/30" />
+          {/* Fade xuống nền chính */}
+          <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-b from-transparent to-slate-950" />
         </div>
 
 
+
+
       {/* Dai tuong Vo nguyen giap */}
-      <section className="mt-16 pb-24 md:pb-32">
+      {/* <section className="mt-16 pb-24 md:pb-32">
         <TimelineStory />
-      </section>
+      </section> */}
       
       {/* Section 1: Bối cảnh lịch sử + Scroll story */}
       <section
@@ -252,6 +260,9 @@ export default function Details() {
 
           {/* CONTENT */}
           <div className="relative z-10 px-6 py-10 md:px-10 md:py-14 space-y-6">
+            {/* Boi canh lich su */}
+            <TimelineStory />
+
             <p className="text-[11px] md:text-xs font-mono uppercase tracking-[0.3em] text-[#f1dca3]">
               Bối cảnh lịch sử
             </p>
@@ -457,7 +468,7 @@ export default function Details() {
       </div>
       </section>
 
-        
+        {/* Nhung ngay dau */}
           <LiberationRoadWithCards />
         
 

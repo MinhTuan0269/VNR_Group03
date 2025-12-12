@@ -183,7 +183,7 @@ export function Hero() {
                 variant="outline"
                 className="relative overflow-hidden text-white border-white/30 hover:bg-white/10 px-6 md:px-8 py-4 md:py-5 text-sm md:text-base uppercase tracking-wider font-bold transition-transform duration-200 hover:scale-105 active:scale-95"
               >
-                <span className="relative z-10">Tham gia Minigame</span>
+                <span className="relative z-10">Ôn tập kiến thức</span>
               </Button>
             </Link>
           </div>

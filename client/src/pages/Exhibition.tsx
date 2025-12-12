@@ -158,61 +158,63 @@ export default function Exhibition() {
                     className="origin-left md:origin-center"
                   >
                     {/* ===== TRANG 1 – TẠP CHÍ NGHỆ THUẬT ===== */}
+                    {/* ===== TRANG 1 – TẠP CHÍ NGHỆ THUẬT ===== */}
                     {currentPage === 0 && (
-                      <section className="relative rounded-xl overflow-hidden shadow-xl border border-stone-700 bg-black">
-                        {/* Ảnh lớn toàn màn trang */}
+                      <section className="flex justify-center">
                         <Dialog>
                           <DialogTrigger asChild>
-                            <button
-                              type="button"
-                              className="group relative w-full h-[480px] md:h-[600px] overflow-hidden"
-                            >
-                              <img
-                                src="/Tho.png" // 👉 ảnh full background
-                                alt="Thơ"
-                                className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                              />
+                            <button type="button" className="group">
+                              {/* KHUNG ÔM ĐÚNG KÍCH THƯỚC ẢNH */}
+                              <div
+                                className="
+                                  inline-block                 /* 👈 QUAN TRỌNG */
+                                  bg-[#f6f2e8]
+                                  border border-stone-700/80
+                                  rounded-xl
+                                  overflow-hidden
+                                  shadow-[0_18px_40px_rgba(0,0,0,0.55)]
+                                "
+                              >
+                                <img
+                                  src="/Tho.png"
+                                  alt="Thơ"
+                                  className="
+                                    block                     /* 👈 TRÁNH DƯ KHOẢNG TRẮNG */
+                                    max-w-full
+                                    h-auto
+                                  "
+                                />
+                              </div>
 
-                              {/* Gradient để dễ đọc chữ */}
-                              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-
-                              {/* Tiêu đề overlay */}
-                              <div className="absolute bottom-6 left-6">
-                                <h3 className="text-3xl md:text-4xl font-serif font-bold text-white drop-shadow">
-                                  {/* Nỗi nhớ */}
-                                </h3>
-                                <p className="text-xs tracking-[0.25em] text-stone-300 uppercase mt-1">
-                                  {/* Thuần Hữu */}
-                                </p>
-                                <p className="text-sm text-stone-200 mt-2 opacity-80">
-                                  {/* Nhấn để xem toàn bài thơ */}
-                                </p>
+                              {/* hint nhỏ */}
+                              <div className="mt-2 text-center text-[11px] uppercase tracking-[0.25em] text-stone-400">
+                                Nhấn để xem toàn ảnh
                               </div>
                             </button>
                           </DialogTrigger>
 
-                          {/* Popup bài thơ */}
-                          <DialogContent className="max-w-xl bg-stone-950 text-stone-50 p-6 border border-stone-700">
-                            <DialogHeader>
-                              <DialogTitle className="text-amber-300 font-serif text-xl">
-                                {/* Bài thơ “Nỗi nhớ” */}
-                              </DialogTitle>
-                            </DialogHeader>
-
-                            {/* Nếu có ảnh full bài thơ → đặt vào đây */}
+                          {/* POPUP FULL IMAGE */}
+                          <DialogContent
+                            className="
+                              max-w-none
+                              w-screen h-screen
+                              p-0
+                              border-none
+                              bg-black
+                              flex items-center justify-center
+                            "
+                          >
                             <img
-                              src="/public/Tho.png"
+                              src="/Tho.png"
                               alt="Thơ"
-                              className="w-full rounded mt-3 mb-4 object-contain"
+                              className="max-w-full max-h-full object-contain"
                             />
-
-                            <p className="text-sm whitespace-pre-line leading-relaxed">
-                              {/* (Dán nội dung bài thơ thật của nhóm bạn vào đây) */}
-                            </p>
                           </DialogContent>
                         </Dialog>
                       </section>
                     )}
+
+
 
                     {/* ===== TRANG 2 – LÁ THƯ SÀI GÒN ===== */}
                     {currentPage === 1 && (

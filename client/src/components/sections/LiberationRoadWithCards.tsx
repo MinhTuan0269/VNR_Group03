@@ -101,44 +101,46 @@ export function LiberationRoadWithCards() {
   return (
     <section className="w-full px-4 py-16 md:py-20">
       <div className="container mx-auto max-w-6xl">
-        {/* ====== LAYOUT 2 CỘT: TRÁI TITLE - PHẢI MAP ====== */}
+        {/* ====== LAYOUT 2 CỘT ====== */}
         <div className="grid gap-16 lg:grid-cols-[0.9fr_2.4fr] lg:items-start">
-          {/* LEFT: TITLE / DESCRIPTION */}
+          {/* ===== LEFT: TITLE / DESCRIPTION ===== */}
           <div className="space-y-4">
-            <p className="text-[11px] font-mono uppercase tracking-[0.35em] text-red-950/60">
+            {/* Label */}
+            <p className="text-[11px] font-mono uppercase tracking-[0.35em] text-stone-700">
               Diễn biến mở màn
             </p>
 
-            <h2 className="text-2xl md:text-4xl font-serif font-bold text-red-950 leading-snug">
+            {/* Title */}
+            <h2 className="text-2xl md:text-4xl font-serif font-extrabold text-[#b91c1c] leading-snug">
               Những ngày đầu chiến dịch{" "}
-              <span className="text-red-700">Hồ Chí Minh</span>
+              <span className="text-[#b91c1c]">Hồ Chí Minh</span>
             </h2>
 
-            <p className="text-sm md:text-base leading-relaxed text-red-950/70 max-w-xl">
+            {/* Description */}
+            <p className="text-sm md:text-base leading-relaxed text-stone-800 max-w-xl">
               Sau Tây Nguyên (4–24/3/1975) và Huế – Đà Nẵng (21–29/3/1975) thắng
               lợi, ngày 31/3/1975 Bộ Chính trị xác định{" "}
-              <span className="text-red-700 font-semibold">
+              <span className="text-[#b91c1c] font-semibold">
                 “Trận quyết chiến chiến lược cuối cùng của quân dân ta bắt đầu”.
               </span>
             </p>
 
-            {/* Divider kiểu báo */}
+            {/* Divider */}
             <div className="flex items-center gap-3 pt-2">
-              <span className="h-px w-12 bg-red-900/25" />
-              <span className="text-[11px] font-semibold text-red-900/35 tracking-[0.35em] uppercase">
+              <span className="h-px w-12 bg-stone-400/70" />
+              <span className="text-[11px] font-bold text-stone-700 tracking-[0.35em] uppercase">
                 4/1975
               </span>
-              <span className="h-px w-12 bg-red-900/25" />
+              <span className="h-px w-12 bg-stone-400/70" />
             </div>
 
             {/* Hint */}
-            <p className="text-xs text-red-950/55 italic">
+            <p className="text-xs text-stone-700 italic">
               Chạm vào từng mốc trên bản đồ để mở tư liệu & chú giải.
             </p>
           </div>
 
-          {/* RIGHT: MAP – KHUNG ĐƠN, ẢNH TO */}
-          {/* RIGHT: MAP – 1 KHUNG DUY NHẤT, ÔM TRỌN ẢNH */}
+          {/* ===== RIGHT: MAP ===== */}
           <div className="relative">
             <div
               className="
@@ -146,8 +148,7 @@ export function LiberationRoadWithCards() {
                 bg-[#f7f1e5]
                 border border-red-900/25
                 shadow-[0_20px_55px_rgba(0,0,0,0.22)]
-              overflow-hidden
-
+                overflow-hidden
               "
             >
               <img
@@ -179,16 +180,14 @@ export function LiberationRoadWithCards() {
                         whileHover={{ scale: 1.05, y: -4 }}
                         whileTap={{ scale: 0.97 }}
                       >
-                        <div className="rounded-2xl bg-zinc-950/85 border border-white/10 px-4 py-3 shadow-[0_18px_45px_rgba(0,0,0,0.55)]">
-                          <p className="text-[12px] font-semibold text-amber-100">
+                        <div className="rounded-2xl bg-zinc-950/90 border border-white/10 px-4 py-3 shadow-[0_18px_45px_rgba(0,0,0,0.55)]">
+                          <p className="text-[12px] font-semibold text-amber-200">
                             {stop.title}
                           </p>
-                          <p className="mt-1 text-[11px] text-zinc-200 leading-snug">
+                          <p className="mt-1 text-[11px] text-stone-200 leading-snug">
                             {stop.teaser}
                           </p>
                         </div>
-
-                        {/* <div className="mt-2 h-2.5 w-2.5 rounded-full bg-red-600 shadow-[0_0_0_5px_rgba(220,38,38,0.16)]" /> */}
                       </motion.div>
                     </DialogTrigger>
 
@@ -224,7 +223,6 @@ export function LiberationRoadWithCards() {
               })}
             </div>
 
-            {/* spacing để không sát section dưới */}
             <div className="h-10 md:h-14" />
           </div>
         </div>
