@@ -56,7 +56,7 @@ export function TacticsSection() {
   return (
     <section className="py-20">
       {/* ===== TITLE – PHƯƠNG CHÂM TÁC CHIẾN ===== */}
-      <motion.h2
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -67,7 +67,7 @@ export function TacticsSection() {
           PHƯƠNG CHÂM TÁC CHIẾN
         </h2>
 
-      </motion.h2>
+      </motion.div>
 
       {/* Cinematic line */}
       <div className="max-w-3xl mx-auto text-center mb-12 px-4">

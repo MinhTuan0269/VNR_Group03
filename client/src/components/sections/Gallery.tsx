@@ -406,63 +406,22 @@ export function Gallery() {
         <div className="grid gap-6 lg:grid-cols-[minmax(0,2fr)_minmax(0,1.2fr)] items-stretch">
           {/* ▶ Video bên trái với controls custom */}
           <motion.div
-            ref={videoContainerRef} // ⬅️ NEW: để fullscreen cả khối video + caption
             whileHover={{ y: -4 }}
             className="relative overflow-hidden rounded-xl border border-stone-700/50 bg-black shadow-[0_14px_35px_rgba(0,0,0,0.7)]"
           >
+            {/* khung tỉ lệ 16:9 */}
             <div className="aspect-video w-full">
-              <video
-                ref={videoRef}
-                id="history-video"
-                src="/audio/tulieu-1.mp4"
-                className="h-full w-full object-cover"
-                muted
-                playsInline
-                // click vào video cũng toggle play/pause
-                onClick={togglePlay}
+              <iframe
+                src="https://www.youtube.com/embed/_SO7wnxn6o0?rel=0"
+                title="Tư liệu giải phóng Sài Gòn 30/4/1975"
+                className="h-full w-full border-0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
               />
             </div>
 
-            {/* Thanh control + mô tả */}
+            {/* Caption dưới video */}
             <div className="border-t border-stone-800 bg-stone-950/95 px-4 py-3 space-y-2">
-              {/* Controls */}
-              <div className="flex items-center gap-3">
-                <button
-                  type="button"
-                  onClick={togglePlay}
-                  className="flex h-8 w-8 items-center justify-center rounded-full border border-stone-600 bg-stone-900 text-xs"
-                >
-                  {isPaused ? "▶" : "⏸"}
-                </button>
-
-                {/* 🔍 Nút fullscreen */}
-                <button
-                  type="button"
-                  onClick={toggleFullscreen}
-                  className="flex h-8 w-8 items-center justify-center rounded-full border border-stone-600 bg-stone-900 text-xs"
-                  title={
-                    isFullscreen ? "Thoát toàn màn hình" : "Xem toàn màn hình"
-                  }
-                >
-                  {isFullscreen ? "⤺" : "⤢"}
-                </button>
-
-                <input
-                  type="range"
-                  min={0}
-                  max={duration || 0}
-                  step={0.1}
-                  value={currentTime}
-                  onChange={handleSeek}
-                  className="flex-1 accent-amber-400"
-                />
-
-                <span className="text-xs tabular-nums text-stone-400">
-                  {formatTime(currentTime)} / {formatTime(duration)}
-                </span>
-              </div>
-
-              {/* Text thông tin */}
               <div>
                 <p className="text-xs uppercase tracking-[0.3em] text-stone-400">
                   Tư liệu – Video

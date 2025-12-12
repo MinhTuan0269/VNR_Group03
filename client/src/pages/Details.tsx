@@ -13,6 +13,9 @@ import { TimelineStory } from "@/components/sections/TimelineStory";
 import { IdeologyStonesSection } from "@/components/sections/IdeologyStonesSection";
 import { LiberationRoadWithCards } from "@/components/sections/LiberationRoadWithCards";
 import Mindmap from "@/components/sections/Mindmap";
+import { NewspaperTankSection } from "@/components/layout/NewspaperTankSection";
+import { CrushedWarMachineSection } from "@/components/sections/CrushedWarMachineSection";
+
 
 /* Simple typewriter for the cinematic paragraph */
 function TypewriterText({
@@ -154,24 +157,73 @@ export default function Details() {
     "Sau Hiệp định Paris 1973, quân Mỹ buộc phải rút khỏi Việt Nam, chính quyền Sài Gòn ngày càng suy yếu, trong khi miền Bắc có điều kiện khôi phục và củng cố lực lượng. Cán cân chiến lược thay đổi sâu sắc, tạo nên một thời cơ lịch sử hiếm có để toàn dân tộc tiến tới thống nhất đất nước.";
 
   return (
-    <div className="min-h-screen bg-stone-50">
+    <div className="min-h-screen bg-[#f5f1e8]">
       <Navbar />
 
-      {/* Header */}
-      <div className="bg-stone-900 text-white pt-32 pb-16 px-4">
-        <div className="container mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-serif font-bold mb-4">
-            Nội Dung Chi Tiết
-          </h1>
-          <p className="text-stone-400 max-w-2xl mx-auto font-mono text-sm uppercase tracking-widest">
-            Bối cảnh - Kế hoạch - Lực lượng - Diễn biến
-          </p>
+      <NewspaperTankSection>
+        {/* Header giữ nguyên */}
+        {/* Header - Phong cách báo cổ kháng chiến */}
+        <div className="relative pt-20 pb-10 px-4 overflow-hidden">
+          {/* Header background - sáng hơn background chính */}
+          <div className="absolute inset-0 bg-[#f5eee0]" />
+
+          {/* Subtle texture overlay cho header */}
+          <div className="absolute inset-0 opacity-[0.06] bg-[repeating-linear-gradient(0deg,rgba(60,50,35,0.12)_0,rgba(60,50,35,0.12)_1px,transparent_1px,transparent_3px)]" />
+
+          {/* Gradient nhẹ từ trên xuống */}
+          <div className="absolute inset-0 bg-gradient-to-b from-[#ebe0cc]/30 via-transparent to-transparent" />
+
+          {/* Decorative border top */}
+          <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-transparent via-[#8b7757]/40 to-transparent" />
+          <div className="absolute top-2 left-0 right-0 h-px bg-[#3c3223]/30" />
+
+          {/* Ornamental corners */}
+          <div className="absolute top-4 left-4 w-12 h-12 border-l-2 border-t-2 border-[#8b7757]/50" />
+          <div className="absolute top-4 right-4 w-12 h-12 border-r-2 border-t-2 border-[#8b7757]/50" />
+
+          {/* Content */}
+          <div className="relative container mx-auto text-center">
+            {/* Masthead style */}
+            <div className="mb-3">
+              <div className="flex items-center justify-center gap-2 mb-2">
+                <div className="h-px w-20 bg-[#3c3223]/40" />
+                <span className="text-[9px] font-serif tracking-[0.4em] text-[#3c3223]/60 uppercase">
+                  Triển Lãm Lịch Sử
+                </span>
+                <div className="h-px w-20 bg-[#3c3223]/40" />
+              </div>
+            </div>
+
+            <h1 className="text-4xl md:text-6xl font-serif font-bold text-[#3c3223] mb-3 tracking-tight drop-shadow-[0_1px_1px_rgba(255,255,255,0.5)]">
+              Nội Dung Chi Tiết
+            </h1>
+
+            <p className="max-w-2xl mx-auto text-xs md:text-sm tracking-[0.25em] text-[#5a4a3a]/80 uppercase mb-4">
+              Bối cảnh - Kế hoạch - Lực lượng - Diễn biến
+            </p>
+
+            {/* Decorative date line */}
+            <div className="flex items-center justify-center gap-3">
+              <div className="h-[2px] w-16 bg-[#8b7757]/30" />
+              <div className="px-3 py-1 border border-[#8b7757]/30 rounded">
+                <span className="text-[10px] font-serif font-semibold text-[#3c3223]/70 tracking-[0.3em]">
+                  1975
+                </span>
+              </div>
+              <div className="h-[2px] w-16 bg-[#8b7757]/30" />
+            </div>
+          </div>
+
+          {/* Decorative border bottom */}
+          <div className="absolute bottom-0 left-0 right-0 h-px bg-[#3c3223]/30" />
         </div>
-      </div>
+
+
       {/* Dai tuong Vo nguyen giap */}
       <section className="mt-16 pb-24 md:pb-32">
         <TimelineStory />
       </section>
+      
       {/* Section 1: Bối cảnh lịch sử + Scroll story */}
       <section
         id="context"
@@ -287,116 +339,128 @@ export default function Details() {
         </motion.div>
 
         {/* B. SCROLL STORY – từng block theo scroll */}
-        <div className="space-y-10">
-          <div className="text-center space-y-3">
-            <h3 className="text-2xl md:text-3xl font-serif font-bold text-stone-900">
-              Từ bối cảnh thế giới đến quyết định mở Chiến dịch Hồ Chí Minh
-            </h3>
-            <p className="text-sm md:text-base text-stone-600 max-w-3xl mx-auto" />
-          </div>
+      <div className="space-y-10">
+        <div className="text-center space-y-3">
+          <h3 className="text-2xl md:text-3xl font-serif font-bold text-red-950">
+            Từ bối cảnh thế giới đến quyết định mở{" "}
+            <span className="text-red-600">Chiến dịch Hồ Chí Minh</span>
+          </h3>
+          <p className="text-sm md:text-base text-red-950/70 max-w-3xl mx-auto" />
+        </div>
 
-          <div className="relative max-w-4xl mx-auto">
-            {/* timeline vertical line */}
-            <div className="absolute left-4 md:left-6 top-0 bottom-0 w-px bg-gradient-to-b from-stone-300 via-stone-200 to-transparent" />
+        <div className="relative max-w-4xl mx-auto">
+          {/* timeline vertical line */}
+          <div className="absolute left-4 md:left-6 top-0 bottom-0 w-px bg-gradient-to-b from-red-600/70 via-red-300/40 to-transparent" />
 
-            <div className="space-y-10 md:space-y-12">
-              {scrollBlocks.map((block, index) => {
-                const Icon = block.icon;
-                return (
-                  <motion.article
-                    key={block.id}
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.3 }}
-                    transition={{
-                      duration: 0.6,
-                      ease: "easeOut",
-                      delay: index * 0.05,
-                    }}
-                    className="relative pl-10 md:pl-16"
-                  >
-                    {/* node on timeline */}
-                    <div className="absolute left-4 md:left-6 top-3 -translate-x-1/2 flex items-center justify-center">
-                      <div className="h-3 w-3 rounded-full bg-stone-900 shadow-md" />
+          <div className="space-y-10 md:space-y-12">
+            {scrollBlocks.map((block, index) => {
+              const Icon = block.icon;
+              return (
+                <motion.article
+                  key={block.id}
+                  initial={{ opacity: 0, y: 40 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{
+                    duration: 0.6,
+                    ease: "easeOut",
+                    delay: index * 0.05,
+                  }}
+                  className="relative pl-10 md:pl-16"
+                >
+                  {/* node on timeline */}
+                  <div className="absolute left-4 md:left-6 top-3 -translate-x-1/2 flex items-center justify-center">
+                    <div className="h-3 w-3 rounded-full bg-red-600 shadow-[0_0_0_4px_rgba(220,38,38,0.15)]" />
+                  </div>
+
+                  <div className="rounded-2xl bg-gradient-to-b from-zinc-950/95 to-red-950/30 border border-red-900/40 shadow-[0_18px_45px_rgba(0,0,0,0.35)] px-4 py-4 md:px-6 md:py-5 backdrop-blur-sm">
+                    <div className="flex items-center gap-3 mb-3">
+                      {/* TAG ACCENT */}
+                      <span className="inline-flex items-center rounded-full bg-red-600/20 text-red-200 border border-red-600/30 px-3 py-1 text-[10px] md:text-[11px] tracking-[0.18em] uppercase">
+                        {block.accent}
+                      </span>
+
+                      <span className="hidden md:inline text-[11px] text-red-100/55">
+                        {block.label}
+                      </span>
                     </div>
 
-                    <div className="rounded-2xl bg-white/90 border border-stone-200 shadow-md px-4 py-4 md:px-6 md:py-5 backdrop-blur-sm">
-                      <div className="flex items-center gap-3 mb-3">
-                        <span className="inline-flex items-center rounded-full bg-stone-900 text-stone-50 px-3 py-1 text-[10px] md:text-[11px] tracking-[0.18em] uppercase">
-                          {block.accent}
-                        </span>
-                        <span className="hidden md:inline text-[11px] text-stone-400">
-                          {block.label}
-                        </span>
+                    <div className="flex flex-col md:flex-row md:items-start md:gap-5">
+                      <div className="mb-3 md:mb-0">
+                        {/* ICON */}
+                        <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-red-600/15 border border-red-600/35 text-red-100 shadow-md">
+                          <Icon className="h-5 w-5" />
+                        </div>
                       </div>
 
-                      <div className="flex flex-col md:flex-row md:items-start md:gap-5">
-                        <div className="mb-3 md:mb-0">
-                          <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-stone-900 text-stone-50 shadow-md">
-                            <Icon className="h-5 w-5" />
-                          </div>
-                        </div>
-                        <div className="space-y-2">
-                          <h4 className="text-lg md:text-xl font-serif font-semibold text-stone-900">
-                            {block.title}
-                          </h4>
-                          <ul className="space-y-1.5 text-sm md:text-[15px] text-stone-700">
-                            {block.lines.map((line) => (
-                              <li key={line} className="flex gap-2">
-                                <span className="mt-[6px] h-1 w-3 rounded-full bg-stone-300" />
-                                <span>{line}</span>
-                              </li>
-                            ))}
-                          </ul>
-                          {block.highlight && (
-                            <p className="mt-2 text-xs md:text-sm text-stone-600 italic">
-                              {block.highlight}
-                            </p>
-                          )}
-                        </div>
+                      <div className="space-y-2">
+                        <h4 className="text-lg md:text-xl font-serif font-semibold text-red-50">
+                          {block.title}
+                        </h4>
+
+                        <ul className="space-y-1.5 text-sm md:text-[15px] text-red-50/80">
+                          {block.lines.map((line) => (
+                            <li key={line} className="flex gap-2">
+                              {/* bullet */}
+                              <span className="mt-[6px] h-1 w-3 rounded-full bg-red-500/70" />
+                              <span>{line}</span>
+                            </li>
+                          ))}
+                        </ul>
+
+                        {block.highlight && (
+                          <p className="mt-2 text-xs md:text-sm text-red-200/75 italic">
+                            <span className="text-red-300 font-semibold">✦ </span>
+                            {block.highlight}
+                          </p>
+                        )}
                       </div>
                     </div>
-                  </motion.article>
-                );
-              })}
-            </div>
-          </div>
-
-          {/* mini timeline bar */}
-          <div className="flex items-center justify-center gap-3 text-[11px] text-stone-500">
-            <span className="h-px w-8 bg-stone-300" />{" "}
-            <span className="font-semibold text-stone-700">-----</span>
-            <span className="h-px w-8 bg-stone-300" />
-          </div>
-
-          {/* Callout dẫn sang 2.2 – lực lượng & bản đồ */}
-          <div className="mt-4 flex justify-center">
-            <div className="max-w-3xl w-full rounded-2xl border border-stone-200 bg-stone-100/80 px-5 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
-              <div>
-                <p className="text-xs font-mono uppercase tracking-[0.2em] text-stone-500 mb-1">
-                  Lực lượng & Kế hoạch tấn công
-                </p>
-                <p className="text-sm md:text-[15px] text-stone-700">
-                  Tiếp theo, chúng ta nhìn vào bản đồ Sài Gòn – Gia Định 1975
-                  với 5 mũi tiến công hợp vây, đánh thẳng vào các mục tiêu trọng
-                  yếu.
-                </p>
-              </div>
-              <a
-                href="#battle-map"
-                className="inline-flex items-center justify-center rounded-full bg-stone-900 text-stone-50 px-4 py-2 text-xs md:text-sm font-semibold tracking-wide hover:bg-stone-800 transition"
-              >
-                Xem bản đồ tác chiến
-              </a>
-            </div>
+                  </div>
+                </motion.article>
+              );
+            })}
           </div>
         </div>
-      </section>
-      <div>
-        {/* Những ngày đầu*/}
-        <LiberationRoadWithCards />
-        {/* ... */}
+
+        {/* mini timeline bar */}
+        <div className="flex items-center justify-center gap-3 text-[11px] text-red-950/55">
+          <span className="h-px w-8 bg-red-600/35" />
+          <span className="font-semibold text-red-700">-----</span>
+          <span className="h-px w-8 bg-red-600/35" />
+        </div>
+
+        {/* Callout dẫn sang 2.2 – lực lượng & bản đồ */}
+        <div className="mt-4 flex justify-center">
+          <div className="max-w-3xl w-full rounded-2xl border border-red-900/30 bg-gradient-to-r from-zinc-950/95 via-red-950/25 to-zinc-950/95 px-5 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+            <div>
+              <p className="text-xs font-mono uppercase tracking-[0.2em] text-red-200/60 mb-1">
+                Lực lượng & Kế hoạch tấn công
+              </p>
+              <p className="text-sm md:text-[15px] text-red-50/80">
+                Tiếp theo, chúng ta nhìn vào{" "}
+                <span className="text-red-300 font-semibold">
+                  bản đồ Sài Gòn – Gia Định 1975
+                </span>{" "}
+                với 5 mũi tiến công hợp vây, đánh thẳng vào các mục tiêu trọng yếu.
+              </p>
+            </div>
+
+            <a
+              href="#battle-map"
+              className="inline-flex items-center justify-center rounded-full bg-red-600 text-white px-4 py-2 text-xs md:text-sm font-semibold tracking-wide hover:bg-red-500 transition shadow-[0_14px_35px_rgba(220,38,38,0.25)]"
+            >
+              Xem bản đồ tác chiến
+            </a>
+          </div>
+        </div>
       </div>
+      </section>
+
+        
+          <LiberationRoadWithCards />
+        
+
 
       {/* Dai tuong Vo nguyen giap */}
       {/* <section className="mt-16 pb-24 md:pb-32">
@@ -438,38 +502,25 @@ export default function Details() {
         {/* <TacticsSection /> */}
 
         {/* Section 3: Timeline – diễn biến 26–30/4 */}
-        <section className="bg-stone-100 -mx-4 px-4 py-16 rounded-3xl">
+        <section className="bg-stone-100 -mx-2 px-2 py-16 rounded-3xl">
           <Timeline />
         </section>
+
+
+        {/* Đập tan */}
+        <CrushedWarMachineSection />
 
         {/* Section 2.1: 4 cards mô tả 4 cánh quân chủ công */}
         <TacticsSection />
 
         {/* Section 4: Result */}
-        {/* <section className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-serif font-bold text-primary mb-8 uppercase">
-            Kết quả & Ý nghĩa
-          </h2>
-          <div className="bg-white p-8 md:p-12 rounded-lg shadow-xl border border-stone-200">
-            <p className="text-xl font-serif italic text-stone-800 mb-6">
-              "Thắng lợi vĩ đại của cuộc kháng chiến chống Mỹ, cứu nước đã kết
-              thúc 21 năm chiến đấu chống Mỹ và 30 năm chiến tranh giải phóng
-              dân tộc, bảo vệ Tổ quốc bắt đầu từ Cách mạng Tháng Tám năm 1945,
-              chấm dứt ách thống trị của chủ nghĩa thực dân - đế quốc trên đất
-              nước ta."
-            </p>
-            <div className="h-1 w-24 bg-primary mx-auto mb-6" />
-            <p className="text-stone-600">
-              Giải phóng hoàn toàn miền Nam, thống nhất đất nước, đưa cả nước
-              tiến lên con đường xây dựng chủ nghĩa xã hội.
-            </p>
-          </div>
-        </section> */}
+
 
         <IdeologyStonesSection />
 
-        {/* mindmap */}
+    
       </div>
+        </NewspaperTankSection>
 
       <Footer />
     </div>
